@@ -10,14 +10,16 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!--link a css-->
   <link rel="stylesheet" href="./css/estilo.css">
-  <title> Bydaynailss 💅❤ </title>
+  <title> By Day Nails </title>
+  <meta name="description" content="Renová tus manos en By Day Nails, un salon de uñas que te permite tener tus manos siempre lindas y pasar un lindo momento dedicado solo para vos ¡Visitanos!">
+  <meta name="keywords" content="Manicuría, uñas, salon">
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg fondoNav mx-auto">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img class="logonav" src="./img/logo.jpeg" alt="logobdn"> 
+        <a class="navbar-brand" href="#"> <img class="logonav" src="./img/logo.jpeg" alt="logobdn">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
@@ -45,15 +47,49 @@
       </div>
     </nav>
     <section class="titulo">
-      <h1>By Day Nailss</h1>
-      <p>
-      <h2>El mejor servicio para el cuidado de tus uñas, con productos de calidad, seguridad y excelente duración.</h2>
-      </p>
+      <h1>
+        By Day Nailss
+      </h1>
+      <h2>
+        El mejor servicio para el cuidado de tus uñas, con productos de calidad, seguridad y excelente duración.
+      </h2>
     </section>
   </header>
   <main>
-    <section class="grillaContainer mb-3">
-      <div class="caja lista card text-center" >
+    <section class="grillaContainer mx-auto ">
+      <div class="caja uno">
+        <div id="carouselExampleIndicators" class="carousel slide w-75 m-auto">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner nails">
+            <div class="carousel-item active">
+              <img src="./img/galeria2.jpeg" class="d-block nails w-100" alt="uñas color rosa">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/galeria1.jpeg" class="d-block nails w-100" alt="uñas color verde">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/galeria3.jpeg" class="d-block nails w-100" alt="uñas con brillo">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/galeria4.jpeg" class="d-block nails w-100" alt="uñas color celeste">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="caja lista card text-center">
         <ul class="list-group list-group-flush">
           <li class="list-group-item listaItem fw-bolder">Tipos de servicios:</li>
           <li class="list-group-item listaItem">Esmaltado tradicional</li>
@@ -63,17 +99,16 @@
           <li class="list-group-item listaItem">Esculpidas</li>
         </ul>
       </div>
-      <div class="caja uno">
-        <img class="nails" src="./img/francesitas.jpeg" alt="Uñas francesitas">
-        <img class="nails" src="./img/papel.jpeg" alt="Uñas con brillos">
-      </div>
       <div class="caja dos">
         <video class="video" src="./multimedia/video nails.mp4" controls> </video>
       </div>
     </section>
   </main>
   <footer class="flex-colum text-center mt-3">
-    <h3> Bydaynailss - todos los derechos reservados </h3>
+    <div>
+      <a href="index.html"> <img class="logoFooter" src="../img/logo.jpeg" alt="logo de la marca">
+      </a>
+    </div>
     <section>
       <a href="https://instagram.com/bydaynailss?igshid=YTQwZjQ0NmI0OA==" target="_blank"> <img class="redes"
           src="./logos/iconinstagram.png" alt="logo instagram"> </a>
@@ -81,6 +116,7 @@
           alt="logo de facebook"></a>
       <a href="https://www.whatsapp.com" target="_blank"> <img class="redes" src="./logos/iconwhatsapp.png"
           alt="logo de whatsapp"></a>
+      <h3 class="textoFooter"> Todos los derechos reservados - By Day Nails. </h3>
     </section>
     <nav>
       <ul class="menufooter">
